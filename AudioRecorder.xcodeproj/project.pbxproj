@@ -13,6 +13,8 @@
 		DDA77A63215AD59F006FCD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA77A62215AD59F006FCD05 /* Assets.xcassets */; };
 		DDA77A66215AD59F006FCD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA77A64215AD59F006FCD05 /* LaunchScreen.storyboard */; };
 		DDA77A6E215AD812006FCD05 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA77A6D215AD812006FCD05 /* RecordViewController.swift */; };
+		DDB5FC51215D816A006B9B1E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB5FC50215D816A006B9B1E /* Utility.swift */; };
+		DDB5FC53215D8ACC006B9B1E /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB5FC52215D8ACC006B9B1E /* SaveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DDA77A65215AD59F006FCD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDA77A67215AD59F006FCD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA77A6D215AD812006FCD05 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		DDB5FC50215D816A006B9B1E /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		DDB5FC52215D8ACC006B9B1E /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		DDA77A5A215AD59B006FCD05 /* AudioRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				DDB5FC4F215D813F006B9B1E /* Custom Classes */,
 				DDA77A71215ADA38006FCD05 /* Assets */,
 				DDA77A70215ADA2E006FCD05 /* Template */,
 				DDA77A6F215ADA1C006FCD05 /* ViewController */,
@@ -69,6 +74,7 @@
 			children = (
 				DDA77A6D215AD812006FCD05 /* RecordViewController.swift */,
 				DDA77A5D215AD59B006FCD05 /* AudioTableViewController.swift */,
+				DDB5FC52215D8ACC006B9B1E /* SaveViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				DDA77A64215AD59F006FCD05 /* LaunchScreen.storyboard */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		DDB5FC4F215D813F006B9B1E /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDB5FC50215D816A006B9B1E /* Utility.swift */,
+			);
+			path = "Custom Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB5FC51215D816A006B9B1E /* Utility.swift in Sources */,
+				DDB5FC53215D8ACC006B9B1E /* SaveViewController.swift in Sources */,
 				DDA77A6E215AD812006FCD05 /* RecordViewController.swift in Sources */,
 				DDA77A5E215AD59B006FCD05 /* AudioTableViewController.swift in Sources */,
 				DDA77A5C215AD59B006FCD05 /* AppDelegate.swift in Sources */,
